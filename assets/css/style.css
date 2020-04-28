@@ -1,0 +1,90 @@
+#logoHospital{
+    width: 50px;
+    height: 50px;
+}
+
+#flexNav{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav{
+    background-color: #8dd485;
+}
+.rectBlue{
+    background-color: #7ec1c2;
+}
+h1{
+    text-align: center;
+}
+#submitPatientForm{
+    background-color: #8dd485;
+    border-color: #7ec1c2;
+}
+
+body{
+    overflow: none;
+}
+
+table{
+    border-collapse: collapse;
+    margin: auto;
+}
+
+th, td{
+    border: thin solid black;
+    padding: 5px;
+    
+}
+
+button{
+    background-color: #8dd485;
+    border-color: #7ec1c2;
+}
+
+.buttonSubmitIdPatient{
+    width: 100%;
+}
+
+ul{
+    list-style: none;
+}
+
+
+.resultMessageForForm{
+    font-weight: bold;
+    font-size: 1.7rem;
+}
+
+.displayedForm{
+    display: none;
+}
+
+#idForRdv{
+    display: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    text-decoration: none;
+    color: black;
+}
+.pageNumber{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 10%;
+    margin-top: 5%;
+}
+.pageNumber a, .pageNumber p{
+    margin-right: 2%;
+}
+
+.thisPage{
+    font-weight: bold;
+    text-decoration: underline;
+}
